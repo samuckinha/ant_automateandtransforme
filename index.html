@@ -1,1 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANT - Gestão para Pequenas Empresas</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">LOGO</div>
+        <div class="brand-name">ANT</div>
+        <button class="btn-login">Login</button>
+    </header>
+
+    <!-- Banner Carrossel -->
+    <section class="carousel">
+        <div class="slides">
+            <div class="slide active" style="background-image: url('https://unsplash.com')">
+                <div class="slide-content"><h1>Soluções em Gestão</h1></div>
+            </div>
+            <div class="slide" style="background-image: url('https://unsplash.com')">
+                <div class="slide-content"><h1>Sua empresa no controle</h1></div>
+            </div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </section>
+
+    <!-- Seção Sobre a Empresa (Inserir abaixo do banner) -->
+<section class="about">
+    <div class="about-container">
+        <div class="about-visual">
+            <div class="glass-card">
+                <h3>+10 anos</h3>
+                <p>Otimizando Pequenos Negócios</p>
+            </div>
+        </div>
+        <div class="about-text">
+            <span class="subtitle">QUEM SOMOS</span>
+            <h2>Transformamos gestão em <span class="highlight">liberdade</span>.</h2>
+            <p>A <strong>ANT</strong> nasceu da necessidade de desmistificar a gestão empresarial. Não entregamos apenas software, entregamos clareza estratégica. Nosso propósito é automatizar o operacional para que você foque no que realmente importa: o crescimento do seu sonho.</p>
+            <button class="btn-secondary">Nossa História</button>
+        </div>
+    </div>
+</section>
+    <!-- Nossos Serviços (Acordeon) -->
+    <section class="services">
+        <h2>Nossos Serviços</h2>
+        <div class="accordion-container" id="accordion">
+            <!-- Gerado via JS para 15 itens -->
+        </div>
+    </section>
+
+    <!-- Testemunhos -->
+    <section class="testimonials">
+        <h2>O que dizem nossos clientes</h2>
+        <div class="testimonial-grid">
+            <div class="card">
+                <p>"A ANT mudou minha forma de organizar o caixa. Recomendo!"</p>
+                <span>- João Silva, Padaria Pão Doce</span>
+            </div>
+            <div class="card">
+                <p>"Ferramenta intuitiva e suporte excelente."</p>
+                <span>- Maria Souza, Boutique Fashion</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Empresas Atendidas -->
+    <section class="clients">
+        <div class="client-track">
+            <div class="client-logo">EMPRESA A</div>
+            <div class="client-logo">EMPRESA B</div>
+            <div class="client-logo">EMPRESA C</div>
+            <div class="client-logo">EMPRESA D</div>
+            <div class="client-logo">EMPRESA E</div>
+        </div>
+    </section>
+
+    <!-- Localização -->
+    <section class="map">
+        <h2>Onde Estamos</h2>
+        <iframe src="https://google.com" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <!-- Fale Conosco -->
+    <section class="contact">
+        <h2>Fale Conosco</h2>
+        <form>
+            <input type="text" placeholder="Seu Nome" required>
+            <input type="email" placeholder="Seu E-mail" required>
+            <textarea placeholder="Como podemos ajudar?" rows="5"></textarea>
+            <button type="submit" class="btn-send">Enviar Mensagem</button>
+        </form>
+    </section>
+
+<!-- Rodapé Moderno -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-brand">
+            <div class="logo">LOGO</div>
+            <p>Sua empresa, sob controle total.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="footer-links">
+            <h4>Navegação</h4>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Soluções</a></li>
+                <li><a href="#">Preços</a></li>
+            </ul>
+        </div>
+        <div class="footer-newsletter">
+            <h4>Newsletter</h4>
+            <p>Receba dicas de gestão semanalmente.</p>
+            <div class="newsletter-box">
+                <input type="email" placeholder="Seu e-mail">
+                <button>Assinar</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 ANT Gestão Inteligente. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
 
